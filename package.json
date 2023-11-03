@@ -8,5 +8,8 @@
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/css/output.css --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^11.0.3"
+  }
 }
