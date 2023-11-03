@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradiant-primary {
+  @apply bg-gradient-to-r from-cyan-400 to-green-400 text-white;
+}
+
+.sub-menu {
+  @apply flex flex-col font-normal absolute top-full group-hover:h-max h-0 bg-slate-50 w-max min-w-[10rem] overflow-hidden transition-all rounded  text-right group-hover:border-t-4 border-green-200 divide-y;
+}
+.sub-menu li {
+  @apply transition-all duration-300 p-5 py-2 hover:bg-green-100;
+}
+#sideBar .menu a:hover {
+  @apply border-b border-green-400 text-green-400;
+}
+
+.side-bar {
+  @apply w-full h-full;
+}
+
+.sub-menu-bar {
+  @apply flex flex-col font-normal relative top-full h-max bg-slate-50 w-full overflow-hidden transition-all rounded text-sm divide-y;
+}
+
+#sideBar .menu li {
+  @apply py-3;
+}
