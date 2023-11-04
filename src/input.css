@@ -27,3 +27,7 @@
 #sideBar .menu li {
   @apply py-3;
 }
+
+body {
+  direction: rtl;
+}
